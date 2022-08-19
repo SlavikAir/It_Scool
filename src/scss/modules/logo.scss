@@ -1,0 +1,22 @@
+.logo {
+    padding: 10px 0;
+    position: relative;
+
+}
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.logo-images {
+  max-width: 50px;
+  max-height: 50px;  
+  transition: .8s ease-in-out;
+ &:hover {
+    transform: rotate(360deg);
+}
+}
+.site-name-text {
+    font-size: 24px;
+    margin-left: 10px;
+}

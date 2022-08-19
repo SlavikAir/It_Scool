@@ -1,0 +1,41 @@
+.admin-cat-add{
+    margin: 0 20px;
+    h3 {
+        margin-left: 20px;
+        color: white;
+    }
+    span {
+        color: white;
+        font-size: 20px;
+        // margin: 0 15px;
+    }
+    
+}
+
+.cat-add-block {
+    margin-bottom: 20px;
+}
+
+.categories-name {
+    margin: 0 10px;
+}
+.root-cat-block {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    span {
+        color: white;
+        font-size: 20px;
+    }
+}
+.root-cat-chang {
+  
+    div {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    span {
+        display: block;
+        width: 160px;
+    }
+}

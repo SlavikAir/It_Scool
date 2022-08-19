@@ -1,0 +1,35 @@
+.slider {
+}
+.slider-line {
+    display: flex;
+    position: relative;
+    height: 0;
+    padding-bottom: 41.5%;
+    
+}
+.slider-container {
+    position: relative;
+}
+.slider-line-img {
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  
+}
+.slider-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display:flex ;
+    justify-content: space-between;
+    span {
+        margin: 0 10px;
+        font-size: 35px;
+        color: $primaryColor;
+    }
+}

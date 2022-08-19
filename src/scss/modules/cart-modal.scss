@@ -1,0 +1,28 @@
+
+
+.cart-item-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    img {
+        max-width: 50px;
+    }
+    h2{
+        font-size: 20px;
+        width: 150px;
+    }
+    button {
+        width: 60px;
+        height: 40px;
+    
+        }
+}
+.CartItemPrice {
+
+}
+.cart-item-input {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}

@@ -1,0 +1,29 @@
+.information {
+    
+}
+.information-item {
+    display: flex;
+    justify-content: space-around;
+    background-color: $infoColor;
+    height: 70px;
+
+}
+.information-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+
+
+}
+.information-element {
+    margin: auto;
+    size: 14px;
+    line-height: 16px;
+    padding: 0;
+    
+    a {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,16 @@
+.user-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-nav-list {
+    display: flex;
+    margin-bottom: 0;
+}
+.user-nav-item {
+    margin: 0 13px;
+}
+.user-nav-link {
+    font-size: 30px;
+    color: $primaryColor;
+}

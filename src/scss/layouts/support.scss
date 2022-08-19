@@ -1,0 +1,31 @@
+.support {
+    padding: 60px 0;
+}
+
+.nav-item-container {
+    display: flex;
+    align-items: center;
+}
+
+.support-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.support-nav-img {
+    font-size: 50px ;
+    color: $primaryColor;
+}
+.nav-item-text {
+    text-align: left;
+    a {
+        font-size: 25px;
+        padding: 0 1rem;
+    }
+    span {
+        font-size: 14px;
+        color: gray;
+    }
+}
+.nav-link-text {
+    padding: 0  1rem;
+}

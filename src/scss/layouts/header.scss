@@ -1,0 +1,15 @@
+
+.header {
+    background-color: $primaryColor;
+    padding: 10px 0;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-link {
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.admin-users {
+
+}
+.admin-users-item {
+    button {
+        margin: 30px;
+    }
+
+}
+.users-items {
+    border: 2px solid $smallColor;
+    border-radius: 15px;
+    margin: 0 30px;
+    margin-top: 50px;
+    background-color: wheat;
+    min-height: 300px;
+    max-height: 500px;
+    overflow-y: scroll;
+}

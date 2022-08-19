@@ -1,0 +1,17 @@
+.categories {  
+    min-width: 260px
+}
+.nav-category {
+    
+}
+.category-item {
+    
+    a {
+        font-size: 18px;
+        color: $primaryColor;
+        text-decoration: none;
+        &:hover {
+            color: $smallColor;
+        }
+    }
+}

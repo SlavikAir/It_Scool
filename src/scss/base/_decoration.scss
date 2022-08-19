@@ -1,0 +1,12 @@
+
+
+.link {
+    a{
+        cursor: pointer;
+        text-decoration: none; 
+        color: $smallColor;
+            &:hover {
+                color: $primaryColor;
+        }
+    }
+}

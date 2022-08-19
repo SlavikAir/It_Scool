@@ -1,0 +1,18 @@
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search-button {
+    border: 1px solid $primaryColor ;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    &:hover {
+        background-color: $primaryColor ;
+        color: wheat;
+    }
+}
+.search-input {
+
+}

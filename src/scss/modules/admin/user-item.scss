@@ -1,0 +1,10 @@
+.user-item {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around ;
+    span {
+       min-width: 205px;
+       border-right: solid 2px gray;
+
+    }
+}

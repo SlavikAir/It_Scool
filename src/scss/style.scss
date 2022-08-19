@@ -1,0 +1,58 @@
+//Helpers
+@import './helpers/variables';   
+
+// Base
+@import './base/container';
+@import './base/reset';
+@import './base/img';
+@import './base/decoration';
+
+// Components
+@import './components/nav-category';
+@import './components/slides';
+@import './components/information';
+@import './components/search';
+@import './components/user-menu';
+@import './components/modal';
+
+// Modules
+@import './modules/category';
+@import './modules/goods-item';
+@import './modules/all-collections';
+@import './modules/sub-categories';
+@import './modules/logo';
+@import './modules/search';
+@import './modules/cart-modal';
+@import './modules/footer-network';
+@import './modules/footer-info';
+@import './modules/footer-phone';
+@import './modules/trending-nav';
+@import './modules/admin/admin-nav';
+@import './modules/button-home';
+@import './modules/admin/admin-data';
+@import './modules/admin/admin-users';
+@import './modules/admin/user-item';
+@import './modules/admin/admin-categories';
+@import './modules/manual-search';
+@import './modules/on-input-search';
+@import './modules/product-page';
+@import './modules/admin/add-categories';
+@import './modules/admin/admin-header';
+@import './modules/admin/add-img-goods';
+@import './modules/admin/add-goods';
+@import './modules/my-input';
+@import './modules/user-order-item';
+
+
+
+// Layouts
+@import './layouts/header';
+@import './layouts/banner';
+@import './layouts/user-nav';
+@import './layouts/main';
+@import './layouts/footer';
+@import './layouts/support';
+@import './layouts/set';
+@import './layouts/trending';
+@import './layouts/admin';
+

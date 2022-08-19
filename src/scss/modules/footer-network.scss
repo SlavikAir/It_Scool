@@ -1,0 +1,21 @@
+.footer-network {
+    margin: 0 20px;
+}
+.footer-network-ul {
+    li {
+        display: flex;
+        align-items: center;
+        span {
+            margin: 5px;
+        }
+    }
+
+}
+
+.footer-icon {
+    font-size: 25px;
+    color: $infoColor;
+    &:hover {
+        color: aqua;
+    }
+}

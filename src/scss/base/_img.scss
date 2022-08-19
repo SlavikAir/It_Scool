@@ -1,0 +1,27 @@
+
+.img-max-h {
+    max-height: 350px;
+    object-fit: contain;
+
+}
+
+.img-max-h {
+    max-height: 500px;
+    object-fit: contain;
+
+}
+
+.card-img {
+    position: relative;
+    width: 100%;
+    height: 0%;
+    padding-top: 100%;
+}
+.card-img-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}

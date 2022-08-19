@@ -1,0 +1,14 @@
+
+.button-home {
+    position: relative;
+    margin: 10px;
+    a {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        svg {
+            color: $smallColor;
+        }
+    }
+}

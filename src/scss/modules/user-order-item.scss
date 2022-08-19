@@ -1,0 +1,26 @@
+.user-orders {
+    margin: 0 10px;
+}
+
+
+.user-orders-item {
+    border: 2px solid $smallColor;
+    
+    margin: 10px 30px;
+    background-color: white;
+    min-height: 300px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.user-order-item{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around ;
+    &:hover {
+        border: 1px solid black;
+    }
+    span {
+       min-width: 205px;
+    }
+}

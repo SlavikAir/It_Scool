@@ -1,0 +1,31 @@
+
+.add-goods {
+    display: flex;
+    justify-content: space-around;
+    span {
+        color: white;
+        font-size: 20px;
+        display: block;
+    }
+}
+.add-goods-item {
+    display: flex ;
+    margin: 10px 20px;
+    span {
+        min-width: 150px;
+    }
+    input {
+        min-width: 200px;
+    }
+    textarea {
+        min-width: 200px;
+    }
+}
+.add-categories-attribute {
+    margin: 10px 20px;
+    h3{
+        color: white;
+        font-size: 30px;
+    }
+}
+
