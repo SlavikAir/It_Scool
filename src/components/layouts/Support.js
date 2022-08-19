@@ -1,4 +1,7 @@
-
+import car from "../../logo/support/car.png"
+import gift from "../../logo/support/gift-box.png"
+import money from "../../logo/support/money.png"
+import support from "../../logo/support/support.png"
 
 
 function Support() {
@@ -7,8 +10,8 @@ function Support() {
             <div className="container-xxl">
                 <ul className="nav support-nav">
                     <li className="nav-item nav-item-container">
-                        <a  href="#">
-                            <i className="support-nav-img bi bi-minecart-loaded"></i>
+                        <a href="#">
+                            < img src={car} alt="#"/>
                         </a>
                         <div className="nav-item-text">
                             <a className="nav-link nav-link-a text-dark" aria-current="page" href="#">Free Shipping</a>
@@ -17,7 +20,7 @@ function Support() {
                     </li>
                     <li className="nav-item nav-item-container">
                         <a className="nav-img" href="#">
-                            <i className=" support-nav-img bi bi-gift"></i>
+                            < img src={gift} alt="#" />
                         </a>
                         <div className="nav-item-text">
                             <a className="nav-link nav-link text-dark" href="#">Smart Gift Card</a>
@@ -26,7 +29,7 @@ function Support() {
                     </li>
                     <li className="nav-item nav-item-container">
                         <a className="nav-img" href="#">
-                            <i className=" support-nav-img bi bi-wallet2"></i>
+                            < img src={money} alt="#" />
                         </a>
                         <div className="nav-item-text">
                             <a className="nav-link text-dark" href="#">Quick Payment</a>
@@ -35,7 +38,7 @@ function Support() {
                     </li>
                     <li className="nav-item nav-item-container">
                         <a className="nav-img" href="#">
-                            <i className=" support-nav-img bi bi-headphones"></i>
+                            <img src={support} alt="#"/>
                         </a>
                         <div className="nav-item-text">
                             <a className="nav-link text-dark" href="#">24/7 Support</a>

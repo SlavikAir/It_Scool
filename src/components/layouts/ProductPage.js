@@ -1,4 +1,3 @@
-import store from '../../redux/store';
 import { actionCartAdd } from '../../redux/actions/actionCart';
 import { actionGoodById } from '../../redux/actions/actionGoods';
 import { connect} from 'react-redux';
@@ -13,8 +12,6 @@ function ProductPage({dispatch, product: { _id, name, price, images, description
 
     const search  = useLocation();
     let pageId = search.pathname.split("/") [2];
-    console.log(pageId)
-    // src= {async ()=> `${backendURL}/${images[0].url}`}
 
     let buy = (e) => {
         e.preventDefault()
