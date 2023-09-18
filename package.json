@@ -2,7 +2,7 @@
   "name": "diplom",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SlavikAir.github.io/название проекта",
+  "homepage": "https://SlavikAir.github.io/It_Scool",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
